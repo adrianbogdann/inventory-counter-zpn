@@ -25,14 +25,15 @@
 ```
  -  To test the API calls, import the file called **InventoryManagement.postman_collection** into Postman
  -- An example for testing the endpoints would be:
-     1. Add product (`/product/add-product`)
-    2. Add subproducts (`/subproduct/add-subproduct`)
-    3. Add Barcodes (`/barcode/add-barcode/4`)
-    4. Assign subproducts to product (`/product/assign-subproducts/4`)
-    5. Build count plan (`/count-plan/build-countplan`)
-    6. Start count execution (`count-plan/start-countplan/1`)
-    7. Add user product count (`http://localhost:6868/product-count/add-productcount`)
-    8. Extract prices (`/count-execution/extract-prices/1`)
+    1. Add user(`/user/add-user`)
+    2. Add product (`/product/add-product`)
+    3. Add subproducts (`/subproduct/add-subproduct`)
+    4. Add Barcodes (`/barcode/add-barcode/4`)
+    5. Assign subproducts to product (`/product/assign-subproducts/4`)
+    6. Build count plan (`/count-plan/build-countplan`)
+    7. Start count execution (`count-plan/start-countplan/1`)
+    8. Add user product count (`http://localhost:6868/product-count/add-productcount`)
+    9. Extract prices (`/count-execution/extract-prices/1`)
 ---
 
 
