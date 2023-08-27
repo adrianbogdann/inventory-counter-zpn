@@ -11,7 +11,7 @@
 (this will create a container containg the db, cache & server. The exposed ports for each one will be defined in the .env file: *MYSQLDB_LOCAL_PORT, NODE_LOCAL_PORT, REDIS_LOCAL_PORT*)
  - If you update something: 
 ```sh
-        sudo docker-compose build
+        docker-compose build
         docker-compose up -d 
 ```
 
